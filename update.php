@@ -5,7 +5,7 @@ define('UPDATER_PATH', str_replace('\\','/',dirname(__FILE__)).'/');
 print UPDATER_PATH;
 //exit();
 $url = "https://github.com/kinoppol/ret/archive/refs/heads/main.zip";
-$zip_file = UPDATER_PATH."/update/tp.zip";
+$zip_file = UPDATER_PATH."/update/temp.zip";
 
 $zip_resource = fopen($zip_file, "w");
 
